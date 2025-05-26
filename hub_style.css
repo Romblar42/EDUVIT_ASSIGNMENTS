@@ -1,0 +1,72 @@
+/* Общие стили для страницы */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Контейнер для всего содержимого */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для заголовка */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Стили для списка ссылок */
+.links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Стили для ссылок */
+.link-item {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Эффекты при наведении на ссылки */
+.link-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Цвета для отдельных ссылок */
+.link-item:nth-child(1) {
+    background-color: #3498db;
+}
+
+.link-item:nth-child(2) {
+    background-color: #2ecc71;
+}
+
+.link-item:nth-child(3) {
+    background-color: #e74c3c;
+}
+
+/* Активное состояние ссылок */
+.link-item:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
