@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   Promise.all([
-    fetch("https://jsonplaceholder.typicode.com/users").then(res => {
+    fetch("https://romblar42.github.io/EDUVIT_ASSIGNMENTS/React_JSON_link/users").then(res => {
       if (!res.ok) throw new Error("Failed to upload users.json");
       return res.json();
     }),
-    fetch("https://jsonplaceholder.typicode.com/posts").then(res => {
+    fetch("https://romblar42.github.io/EDUVIT_ASSIGNMENTS/React_JSON_link/posts").then(res => {
       if (!res.ok) throw new Error("Failed to upload posts.json");
       return res.json();
     })
